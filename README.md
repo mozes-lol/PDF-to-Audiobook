@@ -1,6 +1,6 @@
 # PDF-to-Audiobook
 
-A tiny Python script that converts text-based PDF files into spoken audio using PyPDF2 for text extraction and pyttsx3 for text-to-speech. This repository includes a minimal example (`Main.py`) and a sample PDF (`Kanibalismo.pdf`) to demonstrate how to produce audio from a PDF.
+A tiny Python script that converts text-based PDF files into spoken audio using PyPDF2 for text extraction and pyttsx3 for text-to-speech. This repository includes a minimal example (`Main.py`) and a sample PDF to demonstrate how to produce audio from a PDF.
 
 ## Features
 - Read text from a PDF and speak each page using the system TTS engine
@@ -11,8 +11,8 @@ A tiny Python script that converts text-based PDF files into spoken audio using 
 - Notable libraries: PyPDF2, pyttsx3
 
 ## Files of note
-- `Main.py` — the script that opens `Kanibalismo.pdf`, extracts text page-by-page, and speaks it using pyttsx3.
-- `Kanibalismo.pdf` — included sample PDF used by the script.
+- `Main.py` — the script that opens targeted PDF, extracts text page-by-page, and speaks it using pyttsx3.
+- Targeted PDF — included sample PDF used by the script.
 
 ## Requirements
 - Python 3.7+
@@ -35,7 +35,7 @@ python Main.py
 ```
 
 This will:
-- Open `Kanibalismo.pdf` (so keep the PDF in the repository root or update the filename in `Main.py`)
+- Open targeted PDF (so keep the PDF in the repository root or update the filename in `Main.py`)
 - Print the number of pages
 - Speak the text of each page using your system TTS
 
@@ -58,4 +58,4 @@ Contributions are welcome. If you make improvements, please:
 3. Open a pull request with a short description of the change
 
 ## License
-No license specified. Add a LICENSE file to declare terms.
+No license specified.
